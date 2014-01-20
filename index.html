@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>TypeScript with Grunt</title>
+    </head>
+    <body>
+        <h1 id='user'></h1>
+
+    	<script src="js/lib/person.js"></script>
+    	<script>
+	        var user = {firstname: "Jane", lastname: "Austen"};
+			document.getElementById('user').innerHTML = greeter(user);
+		</script>
+    </body>
+</html>
